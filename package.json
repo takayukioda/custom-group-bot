@@ -1,0 +1,32 @@
+{
+  "name": "custom-group-bot",
+  "version": "1.0.0",
+  "description": "A bot to manage custom group",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "botkit": "^0.7.0",
+    "botkit-storage-mongo": "^1.0.6",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.3.3",
+    "express": "^4.14.0",
+    "express-hbs": "^1.0.4",
+    "node-env-file": "^0.1.8",
+    "querystring": "^0.2.0",
+    "request": "^2.79.0",
+    "wordfilter": "^0.2.6"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  },
+  "keywords": [
+    "bots",
+    "chatbots",
+    "slack"
+  ],
+  "author": "takayuki@odashi.me",
+  "license": "MIT"
+}
